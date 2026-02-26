@@ -1,0 +1,20 @@
+.container .subContainer{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .subContainer .headers{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .subContainer .button{
+    margin-left: auto;
+    width: 200px;
+    background-color: #23c56f;
+}
+

@@ -1,0 +1,22 @@
+.sidebar {
+    flex: 0 0 260px;
+    width: 260px;
+    padding: 16px;
+    border-right: 2px dashed #d9d9d9;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.subSidebar{
+    display: flex;
+    align-items: center;
+}
+
+img,
+.LogoFlugo{
+    width: 90px;
+}
+
+.colaboradoresIcon {
+    height: 80px;
+}

@@ -1,0 +1,36 @@
+* {
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.layout{
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 280px 1fr; 
+  grid-template-rows: 72px 1fr;     
+}
+
+.lateral{
+  grid-row: 1 / span 2; 
+}
+
+.barraTopo{
+  grid-column: 2;
+  grid-row: 1;
+  display: flex;
+  align-items: center;      
+  justify-content: flex-end;
+  padding: 0 24px;
+  background: #fff;
+}
+
+.conteudo{
+  grid-column: 2;
+  grid-row: 2;
+  padding: 30px;
+  min-width: 0; 
+}
+
+
+

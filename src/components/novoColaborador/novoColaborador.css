@@ -1,0 +1,98 @@
+.novoColaborador {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.filhoSlider {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.controleSlider{
+    overflow-x: hidden;
+}
+ 
+
+p.porcentagem {
+    font-weight: 200;
+    overflow-x: hidden;
+}
+
+.novoColaborador .preencherColaborador {
+    width: 100%;
+    
+}
+
+.novoColaborador main.subContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 24px;
+    width: 100%;
+}
+
+.novoColaborador .passos {
+    flex: 0 0 360px;
+}
+
+.novoColaborador .formulario {
+    flex: 1;
+    min-width: 0;
+    width: 70%;
+}
+
+.infoColaborador {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 98%;
+}
+
+.email,.titulo {
+    padding: 15px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 5px;
+}
+
+.email:hover,.titulo:hover {
+    border: 1px solid #23c56f;
+}
+
+.email:focus,.titulo:focus {
+    border: 1px solid #23c56f;
+}
+
+.btnDecisivos{
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 190px;
+    bottom: 320px;
+    left: 0;
+    right: 30px;
+    gap: 64%;
+    width: 98%;
+}
+
+button.btnProximo{
+    background: #23c56f;
+}
+
+button.btnVoltar{
+    color: black;
+}
+
+.controleUltimoPasso{
+    padding-top: 50px;
+}
+
+.erro{
+    color: red;
+    font-size: 15px;
+    margin: 0;
+    font-weight: 200;
+}
+
