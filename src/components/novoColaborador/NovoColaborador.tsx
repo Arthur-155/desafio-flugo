@@ -136,11 +136,11 @@ function NovoColaborador() {
             await addDoc(collection(db, "colaboradores"), payload)
             setSucesso(true);
             window.setTimeout(() => { navigate("/") }, 2000);
-        }catch(erro){
+        } catch (erro) {
             console.error(erro)
         }
 
-        
+
 
 
 
@@ -174,7 +174,10 @@ function NovoColaborador() {
             <div className="preencherColaborador">
                 <main className="subContainer">
                     <div className="passos">
-                        <Box sx={{ '& .MuiStepIcon-root.Mui-active': { color: '#23c56f', fontSize: '30px' }, maxWidth: 500 }}>
+                        <Box sx={{
+                            '& .MuiStepIcon-root.Mui-active': { color: '#23c56f', fontSize: '30px' }, maxWidth: 500,
+                            '& .MuiStepIcon-root.Mui-completed': { color: '#23c56f', fontSize: '25px' }, 
+                        }}>
                             <Stepper activeStep={activeStep} orientation="vertical" >
                                 {steps.map((step) => (
                                     <Step key={step.label}>
