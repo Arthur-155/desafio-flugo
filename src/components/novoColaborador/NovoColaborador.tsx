@@ -28,7 +28,7 @@ function NovoColaborador() {
     const [activeStep, setActiveStep] = React.useState(0);
     const steps = [{ label: 'Infos Basicas', }, { label: 'Infos Profissionais', }];
     const [valor, setValor] = React.useState(0);
-    const handleVoltar = (e: React.MouseEvent<HTMLButtonElement>) => { setActiveStep((prev) => prev - 1); }
+    const handleVoltar = (_e: React.MouseEvent<HTMLButtonElement>) => { setActiveStep((prev) => prev - 1); }
     const [situacao, setSituacao] = React.useState(false);
     const [nome, setNome] = React.useState("");
     const [email, setEmail] = React.useState("");
