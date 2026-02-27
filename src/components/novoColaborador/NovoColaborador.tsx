@@ -20,7 +20,6 @@ import CheckIcon from '@mui/icons-material/Check';
 import { useNavigate } from "react-router-dom";
 import { db } from "../firebase/FirebaseConfig"; // ajuste o caminho
 import { collection, addDoc } from "firebase/firestore";
-import { Collections } from "@mui/icons-material";
 
 function NovoColaborador() {
 
